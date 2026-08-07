@@ -17,12 +17,6 @@ University RAG Chatbot is a Retrieval-Augmented Generation (RAG) chatbot that an
 pip install fastapi uvicorn faiss-cpu langchain langchain-community sentence-transformers transformers torch beautifulsoup4 requests numpy pandas
 ```
 
-Or install from `requirements.txt`:
-
-```bash
-pip install -r requirements.txt
-```
-
 ### Embedding Models
 
 - `intfloat/multilingual-e5-large`
