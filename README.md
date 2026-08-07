@@ -1,2 +1,3 @@
 # Multilingual-University-Chatbot
-# Introduction
+# Introduction:
+University RAG Chatbot is a Retrieval-Augmented Generation (RAG) chatbot that answers university-related queries using data scraped from the official websites of FAST-NUCES, NED University, IBA Karachi, and MAJU. The project uses Python, FastAPI, FAISS, multilingual E5 and MiniLM embedding models, and a local LLM via Ollama to provide accurate, context-aware responses. Character-based chunking and semantic retrieval were implemented to improve search quality. Performance evaluation showed that the multilingual E5 embeddings achieved higher retrieval accuracy than MiniLM, while RAG significantly reduced hallucinations and generated more reliable university-specific answers.
